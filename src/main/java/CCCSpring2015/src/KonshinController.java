@@ -1,4 +1,4 @@
-package CCCSpring2015.src;
+package main.java.CCCSpring2015.src;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;

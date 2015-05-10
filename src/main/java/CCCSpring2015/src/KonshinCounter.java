@@ -1,4 +1,4 @@
-package CCCSpring2015.src;
+package main.java.CCCSpring2015.src;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
