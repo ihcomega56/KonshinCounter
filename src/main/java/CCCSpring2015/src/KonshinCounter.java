@@ -1,4 +1,4 @@
-package main.java.CCCSpring2015.src;
+package CCCSpring2015.src;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
@@ -19,6 +19,7 @@ public class KonshinCounter extends Application {
      */
     @Override
     public void start(Stage stage) throws Exception {
+        System.out.println(getClass());
         Parent root = FXMLLoader.load(getClass().getResource("KonshinCounter.fxml"));
         Scene scene = new Scene(root, 300, 300);
         stage.setScene(scene);

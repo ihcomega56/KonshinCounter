@@ -6,7 +6,7 @@
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.*?>
-<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.java.CCCSpring2015.src.KonshinController">
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="CCCSpring2015.src.KonshinController">
    <columnConstraints>
       <ColumnConstraints />
       <ColumnConstraints />
@@ -66,7 +66,7 @@
       </GridPane>
       <ImageView fitHeight="30.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
          <image>
-            <Image url="@../img/KonshinTitle.png" />
+            <Image url="@../../../resources/CCCSpring2015/img/KonshinTitle.png" />
          </image>
          <GridPane.margin>
             <Insets top="10.0" />

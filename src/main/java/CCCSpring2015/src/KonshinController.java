@@ -1,4 +1,4 @@
-package main.java.CCCSpring2015.src;
+package CCCSpring2015.src;
 
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -38,6 +38,11 @@ public class KonshinController {
      */
     @FXML
     private TextField membershipFee;
+
+    /**
+     * 表示メッセージ
+     */
+    private String msg;
 
     /**
      * 人数を1人追加するボタン
@@ -97,7 +102,6 @@ public class KonshinController {
         String reservedNumber = this.reservedNumber.getText();
         String paidAmount = this.paidAmount.getText();
         String membershipFee = this.membershipFee.getText();
-        String msg;
 
         if (isInvalid(reservedNumber) || isInvalid(paidAmount) || isInvalid(membershipFee)) {
             msg = "半角数字いれて！空欄ダメ";
