@@ -66,7 +66,7 @@
       </GridPane>
       <ImageView fitHeight="30.0" fitWidth="120.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.valignment="TOP">
          <image>
-            <Image url="@../img/KonshinTitle.png" />
+            <Image url="@../../../resources/CCCSpring2015/img/KonshinTitle.png" />
          </image>
          <GridPane.margin>
             <Insets top="10.0" />
